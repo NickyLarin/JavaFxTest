@@ -1,0 +1,48 @@
+.root {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(255, 190, 0, 0.90);
+}
+
+#vBox {
+    -fx-padding: 10;
+}
+
+#dialogText {
+    -fx-pref-width: 230;
+    -fx-padding: 10;
+}
+
+#gameOverText {
+    -fx-font-size: 22;
+    -fx-font-weight: BOLD;
+    -fx-fill: crimson;
+}
+
+#winnerIsText {
+    -fx-font-size: 20;
+    -fx-font-weight: BOLD;
+    -fx-font-style: normal;
+    -fx-fill: crimson;
+}
+
+#buttonsHbox {
+    -fx-alignment: center;
+    -fx-padding: 5;
+    -fx-spacing: 10;
+}
+
+.button {
+    -fx-pref-width: 80;
+    -fx-background-color: deepskyblue;
+    -fx-font-weight: BOLD;
+}
+
+#retryButton:hover {
+    -fx-background-color: chartreuse;
+    -fx-text-fill: white;
+}
+
+#cancelButton:hover {
+    -fx-background-color: crimson;
+    -fx-text-fill: white;
+}

@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: rgba(15, 200, 255, 0.75);
+    -fx-background-radius: 10;
+}
+
+GridPane {
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-background-radius: 10;
+    -fx-background-color: ghostwhite;
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 245, 205, 1);
+}
+
+#exitButton {
+    -fx-background-radius: 100;
+    -fx-background-color: crimson;
+}
+
+#exitButton:hover {
+    -fx-background-color: rgba(255, 21, 68, 1);
+}
+
+.button:focused {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+ImageView {
+    -fx-effect: dropshadow(gaussian, gray, 1, 0.2, 1.5, 1.5);
+}

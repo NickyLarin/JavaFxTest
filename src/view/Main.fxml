@@ -1,0 +1,17 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<GridPane fx:controller="controller.Controller" xmlns:fx="http://javafx.com/fxml" fx:id="gridPane" hgap="10" vgap="10" onMouseDragged="#handleMouseDragged" onMousePressed="#handleMousePressed">
+    <AnchorPane GridPane.rowIndex="0" GridPane.columnIndex="2">
+        <Button AnchorPane.rightAnchor="0" fx:id="exitButton" minHeight="20" minWidth="20" maxHeight="20" maxWidth="20" focusTraversable="false" onAction="#handleExit"/>
+    </AnchorPane>
+    <Button fx:id="button1_1" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="1" GridPane.columnIndex="0" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button1_2" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="1" GridPane.columnIndex="1" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button1_3" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="1" GridPane.columnIndex="2" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button2_1" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="2" GridPane.columnIndex="0" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button2_2" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="2" GridPane.columnIndex="1" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button2_3" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="2" GridPane.columnIndex="2" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button3_1" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="3" GridPane.columnIndex="0" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button3_2" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="3" GridPane.columnIndex="1" focusTraversable="false" onAction="#handleButtonClick"/>
+    <Button fx:id="button3_3" minHeight="100" minWidth="100" maxHeight="100" maxWidth="100" GridPane.rowIndex="3" GridPane.columnIndex="2" focusTraversable="false" onAction="#handleButtonClick"/>
+</GridPane>
